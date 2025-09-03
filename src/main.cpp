@@ -102,5 +102,4 @@ void processInput(char serialInput) {
 void loop() {
   readInput();
   processInput(serialInput);
-  pulseBlue(5);
 }
